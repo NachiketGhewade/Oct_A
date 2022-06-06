@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteGroup2">
+  <test thread-count="5" name="TestGroup2">
+   <groups>	
+   <define name = "meta">
+   <include name = "abcd"></include>
+   <include name = "xyz"></include>
+   
+   </define>
+  <run>
+  <include name = "meta"></include>
+  
+  </run>	
+  </groups>
+    <classes>
+      <class name="groups.TestGroups2"/>
+    </classes>
+  </test> <!-- TestGroup2 -->
+</suite> <!-- SuiteGroup2 -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ScreenShotSuite">
+  <test thread-count="5" name="ScreenShotTest">
+    <classes>
+      <class name="actiTimeTest.ScreenShot1_Base"/>
+       <class name="actiTimeTest.ScreenShot2"/>
+        <class name="actiTimeTest.ScreenShot_Listeners"/>
+    </classes>
+  </test> <!-- ScreenShotTest -->
+</suite> <!-- ScreenShotSuite -->
